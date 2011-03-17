@@ -1,0 +1,32 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Seyun_Choi:
+  author_country: 1
+  author_name: Seyun Choi
+  content: Ganbatene!
+  accecpted_count: 385
+
+Liu_Deong:
+  author_country: 2
+  author_name: Liu Deong
+  content: We love you. We do not hate you.\rWe pray for you
+  accecpted_count: 201
+
+Deong_Xio:
+  author_country: 2
+  author_name: Deong Xio
+  content: WWe wish Fukushima heros to be safe.\rGen-ki-ni...
+  accecpted_count: 198
+
+Heather:
+  author_country: 3
+  author_name: Heather
+  content: Oh my god!\r I am m just crying with you guys
+  accecpted_count: 121
+
+Bush:
+  author_country: 4
+  author_name: Bush
+  content: I am your friend
+  accecpted_count: 10
+

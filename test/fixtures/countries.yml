@@ -1,0 +1,18 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Korea:
+  name: Korea
+  code: 82
+
+United_States:
+  name: United States
+  code: 1
+
+China:
+  name: China
+  code: 2
+
+Canada:
+  name: Canada
+  code: 3
+

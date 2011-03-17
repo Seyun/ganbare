@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Message:</b>
+  <%= @message.content %>
+</p>
+
+<p>
+  <b>Author country:</b>
+  <%= @message.author_country %>
+</p>
+
+<p>
+  <b>Author name:</b>
+  <%= @message.author_name %>
+</p>
+
+<p>
+  <b>Accecpted count:</b>
+  <%= @message.accecpted_count %>
+</p>
+
+
+<%= link_to 'Edit', edit_message_path(@message) %> |
+<%= link_to 'Back', messages_path %>
+

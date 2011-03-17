@@ -1,0 +1,28 @@
+
+
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Message:</b><br/>
+  <%= @message.content.html_safe %>
+</p>
+
+<p>
+  <b>From:</b>
+  <%= @message.author_country %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @message.author_name %>
+</p>
+
+<p>
+  <b>Accecpted count:</b>
+  <%= @message.accecpted_count %>
+</p>
+
+<%= button_to_function "Accept", accept_message_path(@message) %>
+<%= button_to_function "Next", "location.reload(true)" %>
+

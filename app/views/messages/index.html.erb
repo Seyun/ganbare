@@ -1,0 +1,23 @@
+<h1>Messages accepted</h1>
+
+<table>
+  <tr>
+    <th>From</th>
+    <th>Name</th>
+    <th>Messages</th>
+    <th>Accecpted count</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @messages.each do |message| %>
+  <tr>
+    <td><%= message.author_country %></td>
+    <td><%= message.author_name %></td>
+    <td><%= message.content %></td>
+    <td><%= message.accecpted_count %></td>
+  </tr>
+<% end %>
+</table>
+
