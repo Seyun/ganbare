@@ -842,7 +842,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Cs7CmW/LHkmuUmV8rbLRuQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="rgw7vQRctkKjCbV0bIIxYwAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">System</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">System(Server)</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="fCpJmoFwNU6GhvtuREMCVAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1195,7 +1195,7 @@
 <XPD:REF name="SendingStimuli[1]">dCgL0+bspUOCTNwcXgNn7QAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingInstances[1]" type="UMLObject" guid="2c21BYxdwUGky01820IZgAAA">
-<XPD:ATTR name="Name" type="string">System</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">System(Server)</XPD:ATTR>
 <XPD:REF name="CollaborationInstanceSet">IgtOZIMX2U2NwjcyPSj53gAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">UNTCmePNMkSFuHLpv9zbsQAA</XPD:REF>
